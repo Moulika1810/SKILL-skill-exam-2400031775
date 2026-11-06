@@ -1,3 +1,4 @@
+
 package com.klef.soa.repository;
 
 import java.util.List;
@@ -8,10 +9,10 @@ import org.springframework.stereotype.Repository;
 import com.klef.soa.entity.Author;
 
 @Repository
-public interface AuthorRepository extends JpaRepository<Author, Long>
-{
-    // Derived Query Method 1
-	 List<Author> findByName(String name);
+public interface AuthorRepository extends JpaRepository<Author, Long> {
 
-	    List<Author> findByType(String type);
+    List<Author> findByName(String name);
+
+    List<Author> findByType(String type);
+
 }

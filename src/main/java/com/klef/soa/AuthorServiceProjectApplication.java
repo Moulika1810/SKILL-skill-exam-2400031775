@@ -9,6 +9,7 @@ public class AuthorServiceProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AuthorServiceProjectApplication.class, args);
 		System.out.println("Author Service Project is running");
+		
 		}
 
 }

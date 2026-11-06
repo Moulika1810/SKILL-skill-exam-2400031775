@@ -4,8 +4,8 @@ import java.util.List;
 
 import com.klef.soa.entity.Author;
 
-public interface AuthorService
-{
+public interface AuthorService {
+
     String insertAuthor(Author author);
 
     String updateAuthor(Author author);
